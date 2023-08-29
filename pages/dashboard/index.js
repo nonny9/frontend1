@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useRouter } from "next/router";
 
 export async function getServerSideProps() {
-  const res = await fetch('https://eb7c-184-82-26-219.ngrok-free.app/api/users')
+  const res = await fetch('https://9561-184-82-26-219.ngrok-free.app/api/users')
   const posts = await res.json();
 
   return {
