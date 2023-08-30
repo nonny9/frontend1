@@ -29,7 +29,7 @@ export default function index() {
           <Link className="nav-link active" aria-current="page" link href="/.">Index</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" link href="filmcamera">Product</Link>
+          <Link className="nav-link" aria-current="page" link href="filmcamera">Product</Link>
         </li>
         
         <li className="nav-item">
