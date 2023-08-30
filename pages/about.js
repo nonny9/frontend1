@@ -8,7 +8,7 @@ export default function about() {
   return (
     <>
     <Head>
-     <title>Film camera</title> <link rel="icon" href="/logo.png" type="image/icon"/> 
+     <title>N_IT</title> <link rel="icon" href="/logo.png" type="image/icon"/> 
     </Head>
 
  
