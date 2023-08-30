@@ -8,7 +8,7 @@ export default function index() {
   return (
     <>
     <Head>
-     <title>N_IT</title> <link rel="icon" href="/icon.png" type="image/icon"/> 
+     <title>N_IT</title> <link rel="icon" href="/logo.png" type="image/icon"/> 
     </Head>
 
  
@@ -18,8 +18,7 @@ export default function index() {
 <nav className="navbar navbar-expand-lg bg-body-tertiary">
    <div className="container">
     <Link className="navbar-brand" Link href="/."> 
-      <img src="iconnav1.png" alt="Bootstrap" width={50} height={50} />&nbsp;  
-      N_IT
+      <img src="icon.png" alt="Bootstrap" width={80} height={50} />&nbsp;  
       </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
@@ -103,10 +102,10 @@ export default function index() {
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div className="col">
           <div className="card shadow-sm">
-          <img src="P1.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="Far Cry.jpg" alt="Bootstrap" width="100%" height="100%" />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม YASHICA FX-2 (ค.ศ. 1976) </p>
-              <h1><p className="card-text"> 2,800 ฿ </p></h1>
+              <p className="card-text">Far Cry 6</p>
+              <h1><p className="card-text"> 500฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
@@ -124,10 +123,10 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="fc2.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="farm together.jpg" alt="Bootstrap" width="100%" height="100%" />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม Pentax MX (ค.ศ. 1976) </p>
-              <h1><p className="card-text"> 4,990 ฿ </p></h1>
+              <p className="card-text">farm together</p>
+              <h1><p className="card-text"> 200฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
@@ -145,10 +144,10 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="fc3.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="football.jpg" alt="Bootstrap" width="100%" height="100%" />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม Olympus pen ees2 (ค.ศ. 1973) </p>
-              <h1><p className="card-text"> 4,500 ฿ </p></h1>
+              <p className="card-text">Football Manager 2023</p>
+              <h1><p className="card-text"> 250฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
@@ -166,10 +165,10 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-            <img src="fc4.jpg" alt="Bootstrap" width="100%" height={225} />
+            <img src="godofwar.jpg" alt="Bootstrap" width="100%" height="100%" />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม NIKON FG2 (ค.ศ.1982) </p>
-              <h1><p className="card-text"> 7,450 ฿ </p></h1>
+              <p className="card-text">God of War</p>
+              <h1><p className="card-text"> 300฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
@@ -187,10 +186,10 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="fc5.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="No Man's Sky.jpg" alt="Bootstrap" width="100%" height="100%" />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม Canon AE-1 Program (ค.ศ. 1981) </p>
-              <h1><p className="card-text"> 6,500 ฿ </p></h1>
+              <p className="card-text">No Man's Sky</p>
+              <h1><p className="card-text"> 199฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
@@ -208,10 +207,10 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="fc6.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="Resident Evil Revelations.jpg" alt="Bootstrap" width="100%" height="100%" />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม Minolta Hi-Matic 7 Sii (ค.ศ. 1977) </p>
-              <h1><p className="card-text"> 2,800 ฿ </p></h1>
+              <p className="card-text">Resident Evil Revelations</p>
+              <h1><p className="card-text"> 399฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">

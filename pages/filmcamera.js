@@ -8,7 +8,7 @@ export default function filmcamera() {
   return (
     <>
     <Head>
-     <title>Film camera</title> <link rel="icon" href="/icon.png" type="image/icon"/> 
+     <title>Film camera</title> <link rel="icon" href="/logo.png" type="image/icon"/> 
     </Head>
 
  
@@ -18,8 +18,7 @@ export default function filmcamera() {
 <nav className="navbar navbar-expand-lg bg-body-tertiary">
    <div className="container">
     <Link className="navbar-brand" Link href="/."> 
-      <img src="iconnav1.png" alt="Bootstrap" width={50} height={50} />&nbsp;  
-      N_IT
+      <img src="icon.png" alt="Bootstrap" width={80} height={50} />&nbsp;  
       </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
@@ -57,17 +56,14 @@ export default function filmcamera() {
 </nav>
 </header>
 
+
 <main>
 <div>
   <section className="py-5 text-center container">
     <div className="row py-lg-5">
       <div className="col-lg-6 col-md-8 mx-auto">
-        <h1 className="fw-light">Album example</h1>
-        <p className="lead text-body-secondary">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-        <p>
-          <a href="#" className="btn btn-primary my-2">Main call to action</a>&nbsp;&nbsp;
-          <a href="#" className="btn btn-secondary my-2">Secondary action</a>
-        </p>
+        <h1 className="fw-light">ShopGameZone</h1>
+        <p className="lead text-body-light">หาเกมที่ถูกใจได้ที่นี่</p>
       </div>
     </div>
   </section>
@@ -76,10 +72,10 @@ export default function filmcamera() {
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div className="col">
           <div className="card shadow-sm">
-          <img src="P1.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="Far Cry.jpg" alt="Bootstrap" width="100%" height="100%" />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม YASHICA FX-2 (ค.ศ. 1976) </p>
-              <h1><p className="card-text"> 2,800 ฿ </p></h1>
+              <p className="card-text">Far Cry 6</p>
+              <h1><p className="card-text"> 500฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
@@ -97,10 +93,10 @@ export default function filmcamera() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="fc2.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="farm together.jpg" alt="Bootstrap" width="100%" height="100%" />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม Pentax MX (ค.ศ. 1976) </p>
-              <h1><p className="card-text"> 4,990 ฿ </p></h1>
+              <p className="card-text">farm together</p>
+              <h1><p className="card-text"> 200฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
@@ -118,10 +114,10 @@ export default function filmcamera() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="fc3.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="football.jpg" alt="Bootstrap" width="100%" height="100%" />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม Olympus pen ees2 (ค.ศ. 1973) </p>
-              <h1><p className="card-text"> 4,500 ฿ </p></h1>
+              <p className="card-text">Football Manager 2023</p>
+              <h1><p className="card-text"> 250฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
@@ -139,10 +135,10 @@ export default function filmcamera() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-            <img src="fc4.jpg" alt="Bootstrap" width="100%" height={225} />
+            <img src="godofwar.jpg" alt="Bootstrap" width="100%" height="100%" />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม NIKON FG2 (ค.ศ.1982) </p>
-              <h1><p className="card-text"> 7,450 ฿ </p></h1>
+              <p className="card-text">God of War</p>
+              <h1><p className="card-text"> 300฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
@@ -160,10 +156,10 @@ export default function filmcamera() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="fc5.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="No Man's Sky.jpg" alt="Bootstrap" width="100%" height="100%" />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม Canon AE-1 Program (ค.ศ. 1981) </p>
-              <h1><p className="card-text"> 6,500 ฿ </p></h1>
+              <p className="card-text">No Man's Sky</p>
+              <h1><p className="card-text"> 199฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
@@ -181,10 +177,10 @@ export default function filmcamera() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="fc6.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="Resident Evil Revelations.jpg" alt="Bootstrap" width="100%" height="100%" />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม Minolta Hi-Matic 7 Sii (ค.ศ. 1977) </p>
-              <h1><p className="card-text"> 2,800 ฿ </p></h1>
+              <p className="card-text">Resident Evil Revelations</p>
+              <h1><p className="card-text"> 399฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">

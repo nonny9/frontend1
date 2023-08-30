@@ -8,7 +8,7 @@ export default function about() {
   return (
     <>
     <Head>
-     <title>Film camera</title> <link rel="icon" href="/icon.png" type="image/icon"/> 
+     <title>Film camera</title> <link rel="icon" href="/logo.png" type="image/icon"/> 
     </Head>
 
  
@@ -18,8 +18,7 @@ export default function about() {
 <nav className="navbar navbar-expand-lg bg-body-tertiary">
    <div className="container">
     <Link className="navbar-brand" Link href="/."> 
-      <img src="iconnav1.png" alt="Bootstrap" width={50} height={50} />&nbsp;  
-      N_IT
+      <img src="icon.png" alt="Bootstrap" width={80} height={50} />&nbsp;  
       </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
@@ -57,6 +56,7 @@ export default function about() {
 </nav>
 </header>
 
+
 <main>
 
 <section className="section about-section gray-bg" id="about">
@@ -64,23 +64,21 @@ export default function about() {
     <div className="row align-items-center flex-row-reverse">
       <div className="col-lg-6">
         <div className="about-text go-to">
-          <h3 className="dark-color">About Me</h3>
-          <h6 className="theme-color lead">เจ้าของเว็บไซต์ &amp; ช่างภาพกล้องฟิล์ม</h6>
-          <p> Film camera นั้น <mark>เป็นร้านขายกล้องฟิล์ม กล้องเก่า กล้องมือสอง  อุปกรณ์ถ่ายภาพ และ ฟิล์มถ่ายรูป</mark> 
-          โดยผู้ชำนาญการจริง ในเครือของร้านกล้องฟิล์มดีดี 
+          &nbsp;
+          <h6 className="theme-color lead"> เว็ปไซต์ขายเกมอันดับ 1 !! </h6>
+          <p> N_IT นั้นขายเกมส์แท้ราคาถูก ไม่แพง ราคานักศึกษาจับต้องได้ สนใจต้อง N_IT 
           </p>   
           <ul type="disc">
           ขายอะไรบ้าง? สินค้าของทางร้านมีหลากหลายดังนี้
-                     <li>กล้องฟิล์ม กล้องสะสม กล้องมือสอง กล้องโบราณ กล้องฟิล์ม SLR กล้องฟิล์ม RF กล้องฟิล์ม TLR กล้องฟิล์มฟอร์แมต 4x5 กล้องฟิล์มโล่โม่ กล้องโพราลอยด์ </li>
-                     <li>ฟิล์มถ่ายภาพ ฟิล์มสี ฟิล์มขาวดำ ฟิล์ม Negative ฟิล์มสไลด์ ฟิล์ม 135 ฟิล์ม 120 <br></br>ฟิล์มโพลารอยด์</li>
-                     <li>เลนส์กล้องฟิล์ม เลนส์มือหมุน เลนส์วายด์ เลนส์เทเล สำหรับกล้องฟิล์มทุกรุ่น </li>
+                     <li> God of war , football manager 2023 ฯลฯ</li>
+                     <li> ไอดีเกมส์ราคาถูก </li>
                </ul>
           
               </div>
             </div>
       <div className="col-lg-6">
         <div className="about-avatar">
-          <img src="iconnav1.png" title alt />
+          <img src="logo.png" title alt />
         </div>
       </div>
     </div>
