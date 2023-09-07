@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-export async function getStaticProps(req) {
+export async function getServerSideProps(req) {
   const id = req.query;
   const res = await fetch('http://localhost:3000/api/users?id=' + id, {
     method: 'GET',
