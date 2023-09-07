@@ -13,7 +13,7 @@ export const authOptions = {
           },
           async authorize(credentials, req) {
             
-            const res = await fetch("https://www.melivecode.com/api/login", {
+            const res = await fetch("http://localhost:3000/api/login", {
               method: 'POST',
               body: JSON.stringify(credentials),
               headers: { "Content-Type": "application/json" }
@@ -28,13 +28,13 @@ export const authOptions = {
           }
         })
       ],
-      secret: "LlKq6ZtYbr+hTC073mAmAh9/h2HwMfsFo4hrfCx5mLg=",
+      secret: "asfasfas15fs15=",
       callbacks: {
         async jwt({ token, user, account }) {
           //console.log(user)
           if (account) {
             token.accessToken = account.access_token
-            token.user =user
+            token.user = user
           }
           return token
         },

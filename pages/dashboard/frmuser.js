@@ -64,6 +64,7 @@
 // }
 import { useSession, signIn, signOut } from "next-auth/react"
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 
 export default function Component({ posts }) {
@@ -89,7 +90,7 @@ export default function Component({ posts }) {
     console.log("password:", jsonData.password);
     console.log("status:", jsonData.status);
 
-     fetch('https://47ac-49-229-124-133.ngrok-free.app/api/users', {
+     fetch('http://localhost:3000/api/users', {
         method: 'POST', // or 'PUT'
         headers: {
           'Content-Type': 'application/json',
@@ -185,12 +186,18 @@ export default function Component({ posts }) {
             />
           </div>
           <br></br>
-          <tr>
-            <td>
-          <button type="submit" className="btn btn-success">SAVE</button>&nbsp;&nbsp; {/* */}
-          <button type="submit" className="btn btn-warning">Back</button> {/* */}
-          </td>
-          </tr>
+          <div className="row">
+                        <div className="col-md-12 text-center text-lg-start">
+                          <button
+                            type="submit"
+                            className="btn btn-success btn-block"
+                          >
+                            <span>Save</span>{" "}
+                            <i className="bi bi-arrow-right" />
+                          </button>&nbsp;&nbsp;&nbsp;
+                          <Link href="./" className="btn btn-warning">Back</Link>
+                        </div>
+                      </div>
           </form>
       </div>
       <br></br><br></br>
