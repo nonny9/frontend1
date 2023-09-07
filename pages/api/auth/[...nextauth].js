@@ -13,7 +13,7 @@ export const authOptions = {
           },
           async authorize(credentials, req) {
             
-            const res = await fetch("http://localhost:3000/api/login", {
+            const res = await fetch("https://frontend-green-psi-69.vercel.app/api/login", {
               method: 'POST',
               body: JSON.stringify(credentials),
               headers: { "Content-Type": "application/json" }
