@@ -10,7 +10,13 @@ const connection = mysql.createConnection({
   password: process.env.DB_PASS,
   database: process.env.DB_DATABASE
 });
- 
+
+// const connection = mysql.createConnection({
+//   host: 'localhost',
+//   user: 'root',
+//   password: '1234',
+//   database: 'db_users',
+// });
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {

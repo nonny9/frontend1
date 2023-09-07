@@ -195,7 +195,7 @@ export default function Component({ posts }) {
                             <span>Save</span>{" "}
                             <i className="bi bi-arrow-right" />
                           </button>&nbsp;&nbsp;&nbsp;
-                          <Link href="./" className="btn btn-warning">Back</Link>
+                          <Link href="/dashboard" className="btn btn-warning">Back</Link>
                         </div>
                       </div>
           </form>
