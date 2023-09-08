@@ -99,6 +99,7 @@ export default function Component({ posts }) {
             name="txt_studentid"
             id="txt_studentid"
             className="form-control bg-white"
+            placeholder="Studentid"
             defaultValue={post.studentid}
             required
             />
