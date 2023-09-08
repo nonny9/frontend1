@@ -80,7 +80,18 @@ export default function Component({ posts }) {
             defaultValue={post.id}
             />
           </div>
-            
+            <div className="form-group">
+            <label>ID:</label>
+            <input
+            type="text"
+            name="txt_studentid"
+            id="txt_studentid"
+            className="form-control bg-white"
+            defaultValue={post.id}
+            required
+            disabled
+            />
+          </div>
             <div className="form-group">
             <label>Student ID:</label>
             <input
