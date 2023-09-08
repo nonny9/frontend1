@@ -80,7 +80,6 @@ export default function Component({ posts }) {
             defaultValue={post.id}
             />
           </div>
-
             <div className="form-group">
             <label>ID:</label>
             <input
