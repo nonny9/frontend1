@@ -71,6 +71,16 @@ export default function Component({ posts }) {
             {posts.users.map((post, i) => (
             <>
             <div className="form-group">
+            <label></label>
+            <input
+            type="hidden"
+            name="txt_id"
+            id="txt_id"
+            className="form-control"
+            defaultValue={post.id}
+            />
+          </div>
+            <div className="form-group">
             <label>ID:</label>
             <input
             type="text"
